@@ -1,0 +1,44 @@
+
+------- Udpated PayLoad-----
+{
+	"before": {
+		"Id": 1,
+		"Name": "John",
+		"Age": 30
+	},
+	"after": {
+		"Id": 1,
+		"Name": "John Doe",
+		"Age": 31
+	},
+	"action": 1,
+	"entityName": "User",
+	"userId": "admin"
+}
+
+------- Created PayLoad-----
+
+{
+  "before": null,
+  "after": {
+    "Id": 2,
+    "Name": "Jane Doe",
+    "Age": 28
+  },
+  "action": 0,
+  "entityName": "User",
+  "userId": "admin"
+}
+
+------- Deleted PayLoad-----
+{
+  "before": {
+    "Id": 3,
+    "Name": "Mark Smith",
+    "Age": 40
+  },
+  "after": null,
+  "action": 2,
+  "entityName": "User",
+  "userId": "admin"
+}
